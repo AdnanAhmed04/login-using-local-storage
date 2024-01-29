@@ -13,6 +13,7 @@ function login() {
 
 
 function signup() {
+    console.log("wwhat is")
     var get_email = document.querySelector('#get_email').value;
     console.log(get_email);
     var get_password = document.querySelector('#get_password').value;
