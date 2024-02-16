@@ -1,5 +1,7 @@
 // login ka code hai
-
+// sab se pelay hum nay 2 input leya(email or password) hai or uss ko local storage may save karadeya per uss ko 2 or input leye (password or email)
+// per unn dono ko ak alag alag variable may save kardeya per 
+// local storage wala or variable walo ko compare karaya agr dono same hai tou dashborad per jayee ga warna message fail ka aye ga 
 function login() {
     var get_email = document.querySelector('#get_email').value;
     console.log(get_email);
