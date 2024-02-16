@@ -1,6 +1,7 @@
 // login ka code hai
 
 function login() {
+    console.log("login")
     var get_email = document.querySelector('#get_email');
     console.log(get_email);
     var get_password = document.querySelector('#get_password');
@@ -13,7 +14,8 @@ function login() {
 
 
 function signup() {
-    console.log("wwhat is")
+    // console.log("wwhat is this")
+    console.log("signup")
     var get_email = document.querySelector('#get_email').value;
     console.log(get_email);
     var get_password = document.querySelector('#get_password').value;
@@ -21,11 +23,15 @@ function signup() {
     if (localStorage.getItem('email') === get_email && localStorage.getItem('password') === get_password) {
         alert('signUp success')
         location.href = './dashborad.html';
+        // console.log('ye signup kay if kay under ki condition hai');
+
 
     }
     else {
         alert('signUp fail')
         location.href = './signup.html';
+        // console.log('ye signup kay else kay under ki condition hai');
+
 
 
     }
